@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import LogIn from "./components/LogIn";
 import Signup from "./components/Signup";
 import Home from './components/Home';
@@ -18,13 +18,13 @@ const App = () => {
     <NordContexts.Provider value={{authUser, setAuthUser}}>
       <Router>
         <Routes>
-          <Route path="/" element={<LogIn/>} />
-          <Route path="/signup" element={<Signup/>} />
-          <Route path="/home" element={<Home/>} />
-          <Route path="/photo" element={<Photo/>} />
-          <Route path="/calc" element={<Calculator/>} />
-          <Route path="/text" element={<TextFire/>} />
-          <Route path="/never" element={<AuthDetails/>}/>
+          <Route path="/Nord/" element={<LogIn/>} />
+          <Route path="/Nord/signup" element={<Signup/>} />
+          <Route path="/Nord/home" element={<Home/>} />
+          <Route path="/Nord/photo" element={<Photo/>} />
+          <Route path="/Nord/calc" element={<Calculator/>} />
+          <Route path="/Nord/text" element={<TextFire/>} />
+          <Route path="/Nord/never" element={<AuthDetails/>}/>
         </Routes>  
       </Router>
       </NordContexts.Provider>

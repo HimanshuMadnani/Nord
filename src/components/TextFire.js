@@ -41,7 +41,7 @@ const TextFire = () => {
     }, [])
     const {authUser} = useContext(NordContexts);
 
-    if(authUser===null) return <Navigate replace to="/" />
+    if(authUser===null) return <Navigate replace to="/Nord/" />
     return (
         <section className="data-container bg-slate-200">
             <div className="data">
