@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.data-container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;    
+}
+ 
+.data {
+    width: 70%;
+    margin: 3rem auto 0 auto;    
+}
+ 
+.header {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+ 
+.inp {
+    padding: 10px 3px;
+    width: 100%;
+}
+ 
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+ 
+.btn {
+    padding: 10px 1rem;
+    background: #334;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ 
+.data-content {
+    margin-top: 2rem;
+}

@@ -1,0 +1,48 @@
+@import url(https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.notification{
+  background-image: url(./resources/noti.png);
+  background-repeat: no-repeat;
+  background-size: 32vh;
+  background-position-y: -2vh;
+  background-position-x: 19.5vh;
+}
+.photobutton{
+  background-image: url(./resources/photo.png);
+  background-repeat: no-repeat;
+  background-size: 30vh;
+  
+  background-position-x: 20vh;
+}
+.note{
+  background-image: url(./resources/note.png);
+  background-repeat: no-repeat;
+  background-size: 30vh;
+  background-position-x: 22.5vh;
+}
+
+.clac{
+  background-image: url(./resources/calc.png);
+  background-repeat: no-repeat;
+  background-size: 28vh;
+  background-position-x: 21.5vh;
+}
+
+.photo{
+  width: 10h;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.photo img{
+  width: 300px;
+  margin: 10px;
+}
+
+
