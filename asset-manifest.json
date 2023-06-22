@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Nord/React/static/css/main.e1883c18.css",
-    "main.js": "/Nord/React/static/js/main.1888a5ce.js",
-    "static/js/787.3d55c473.chunk.js": "/Nord/React/static/js/787.3d55c473.chunk.js",
-    "static/media/photo.png": "/Nord/React/static/media/photo.c66d2e77ef6b05174678.png",
-    "static/media/note.png": "/Nord/React/static/media/note.3fd9b11c8f7b580986b8.png",
-    "static/media/noti.png": "/Nord/React/static/media/noti.5ef33862ec0629c1996a.png",
-    "index.html": "/Nord/React/index.html",
-    "main.e1883c18.css.map": "/Nord/React/static/css/main.e1883c18.css.map",
-    "main.1888a5ce.js.map": "/Nord/React/static/js/main.1888a5ce.js.map",
-    "787.3d55c473.chunk.js.map": "/Nord/React/static/js/787.3d55c473.chunk.js.map"
+    "main.css": "/Nord/static/css/main.70ca3f50.css",
+    "main.js": "/Nord/static/js/main.b9126ace.js",
+    "static/js/787.3d55c473.chunk.js": "/Nord/static/js/787.3d55c473.chunk.js",
+    "static/media/photo.png": "/Nord/static/media/photo.c66d2e77ef6b05174678.png",
+    "static/media/note.png": "/Nord/static/media/note.3fd9b11c8f7b580986b8.png",
+    "static/media/noti.png": "/Nord/static/media/noti.5ef33862ec0629c1996a.png",
+    "index.html": "/Nord/index.html",
+    "main.70ca3f50.css.map": "/Nord/static/css/main.70ca3f50.css.map",
+    "main.b9126ace.js.map": "/Nord/static/js/main.b9126ace.js.map",
+    "787.3d55c473.chunk.js.map": "/Nord/static/js/787.3d55c473.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1883c18.css",
-    "static/js/main.1888a5ce.js"
+    "static/css/main.70ca3f50.css",
+    "static/js/main.b9126ace.js"
   ]
 }
