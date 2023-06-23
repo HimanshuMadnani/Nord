@@ -15,15 +15,15 @@ const App = () => {
     
     <div className="App.css">
     <NordContexts.Provider value={{authUser, setAuthUser}}>
-      <Router>
-        <Routes basename={`${process.env.PUBLIC_URL}`}>
-          <Route path="Nord/" element={<LogIn/>} />
-          <Route path="Nord/sign" element={<Signup/>} />
-          <Route path="Nord/home" element={<Home/>} />
-          <Route path="Nord/photo" element={<Photo/>} />
-          <Route path="Nord/calc" element={<Calculator/>} />
-          <Route path="Nord/text" element={<TextFire/>} />
-          <Route path="Nord/never" element={<AuthDetails/>}/>
+      <Router basename="/Nord">
+        <Routes>
+          <Route exact path="Nord/" element={<LogIn/>} />
+          <Route path="/sign" element={<Signup/>} />
+          <Route path="/home" element={<Home/>} />
+          <Route path="/photo" element={<Photo/>} />
+          <Route path="/calc" element={<Calculator/>} />
+          <Route path="/text" element={<TextFire/>} />
+          <Route path="/never" element={<AuthDetails/>}/>
         </Routes>  
       </Router>
       </NordContexts.Provider>
