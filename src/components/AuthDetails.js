@@ -28,7 +28,7 @@ const AuthDetails = () => {
          }).catch((error)=>console.log(error)
 )
     }
-    if(authUser===null) return <Navigate replace to="/" />
+    if(authUser===null) return <Navigate to="/" />
     return <div className=''>{authUser ? <><p className='ml-[3vh]'>{`Signed In as ${authUser.email}`}</p><button className='mt-2 ml-[20vh] bg-slate-100 rounded border-solid pl-2 pr-2 mb-3 hover:bg-slate-200 border-black border-1 m-1.5 p-0.5' onClick={usersignOut}>Sign Out</button></> : <p></p>}</div>
 }
 
