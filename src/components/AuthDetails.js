@@ -1,8 +1,7 @@
-import React, { useEffect , useContext, useState } from 'react'
+import React, { useEffect , useContext} from 'react'
 import { onAuthStateChanged, signOut } from 'firebase/auth'
 import { NordContexts } from '../util/Contexts'
 import { auth } from '../firebase'
-import Home from './Home'
 import { Navigate } from 'react-router-dom'
 
 const AuthDetails = () => {
