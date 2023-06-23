@@ -15,9 +15,9 @@ const App = () => {
     
     <div className="App.css">
     <NordContexts.Provider value={{authUser, setAuthUser}}>
-      <Router basename="/Nord">
+      <Router basename={`${process.env.PUBLIC_URL}`}>
         <Routes>
-          <Route exact path="Nord/" element={<LogIn/>} />
+          <Route exact path={process.env.PUBLIC_URL} element={<LogIn/>} />
           <Route path="/sign" element={<Signup/>} />
           <Route path="/home" element={<Home/>} />
           <Route path="/photo" element={<Photo/>} />
