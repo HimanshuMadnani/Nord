@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/Nord/static/css/main.70ca3f50.css",
-    "main.js": "/Nord/static/js/main.008e27a8.js",
+    "main.js": "/Nord/static/js/main.2df2e6b1.js",
     "static/js/787.3d55c473.chunk.js": "/Nord/static/js/787.3d55c473.chunk.js",
     "static/media/photo.png": "/Nord/static/media/photo.c66d2e77ef6b05174678.png",
     "static/media/note.png": "/Nord/static/media/note.3fd9b11c8f7b580986b8.png",
     "static/media/noti.png": "/Nord/static/media/noti.5ef33862ec0629c1996a.png",
     "index.html": "/Nord/index.html",
     "main.70ca3f50.css.map": "/Nord/static/css/main.70ca3f50.css.map",
-    "main.008e27a8.js.map": "/Nord/static/js/main.008e27a8.js.map",
+    "main.2df2e6b1.js.map": "/Nord/static/js/main.2df2e6b1.js.map",
     "787.3d55c473.chunk.js.map": "/Nord/static/js/787.3d55c473.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.70ca3f50.css",
-    "static/js/main.008e27a8.js"
+    "static/js/main.2df2e6b1.js"
   ]
 }
