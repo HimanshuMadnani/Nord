@@ -31,7 +31,7 @@ const Photo = () => {
       });
     });
   }, []) ;
-  if(authUser===null) return <Navigate replace to="/Nord/" />
+  if(authUser===null) return <Navigate replace to="Nord/" />
 
   return ( 
     <div className='photo pt-12 bg-slate-200 h-[100%]'>

@@ -21,13 +21,13 @@ const Home = () => {
   const navigate = useNavigate();
 
   const photoPath = () => {
-    navigate('/Nord/photo')
+    navigate('Nord/photo')
   }
   const textPath = () => {
-    navigate('/Nord/text')
+    navigate('Nord/text')
   }
   const calcPath = () => {
-    navigate('/Nord/calc')
+    navigate('Nord/calc')
   }
   
 

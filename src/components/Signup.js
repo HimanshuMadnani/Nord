@@ -40,12 +40,12 @@ const Signup = () => {
 
         isTemporaryEmail(email)
         if (isTemp) {
-            alert('This is a temporary email address');
+            alert('This is a temporary email addrss');
           }
           else{
         createUserWithEmailAndPassword(auth, email, password)
         .then(() => {
-            navigate("/Nord/")
+            navigate("Nord/")
         }).catch((error) =>{
             console.log(error)
         })
@@ -78,7 +78,7 @@ const Signup = () => {
             <button className=" bg-slate-100 rounded border-solid mt-3 ml-[12vh] pl-2 pr-2 mb-3 hover:bg-slate-200 border-black border-1 m-1.5 p-0.5" type="submit">Sign Up</button>
             <br/>
             <p className="ml-8">Alredy have an account?</p>
-            <a className="p-2 ml-[11vh] text-cyan-800 hover:text-cyan-500" href="/Nord/">Sign In</a>
+            <a className="p-2 ml-[11vh] text-cyan-800 hover:text-cyan-500" href="Nord/">Sign In</a>
         </form>
     </div>
   )

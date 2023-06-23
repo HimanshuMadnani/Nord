@@ -28,7 +28,7 @@ import { Navigate } from 'react-router-dom';
         default:console.log("error");
       }
   }
-  if(authUser===null) return <Navigate replace to="/Nord/" />
+  if(authUser===null) return <Navigate replace to="Nord/" />
 
     return (
       <div className=' justify-items-center bg-slate-300 border rounded-md border-black h-[400px] items-center mt-[20vh] ml-[20vh] mr-[20vh]' >

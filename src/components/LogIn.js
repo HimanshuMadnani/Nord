@@ -22,7 +22,7 @@ const LogIn = () => {
         })
     }
 
-    if(currentUser) return <Navigate to="/Nord/home"/>
+    if(currentUser) return <Navigate to="Nord/home"/>
 
   return (
 
@@ -46,7 +46,7 @@ const LogIn = () => {
             <button className=" bg-slate-100 rounded border-solid mt-3 ml-[12vh] pl-2 pr-2 mb-3 hover:bg-slate-200 border-black border-1 m-1.5 p-0.5" type="submit">Log In</button>
             <br/>
             <p className="ml-8">Dont have an Account?</p>
-            <a className="p-2 ml-[11vh] text-cyan-800 hover:text-cyan-500" href="/Nord/sign">Sign Up!</a>
+            <a className="p-2 ml-[11vh] text-cyan-800 hover:text-cyan-500" href="Nord/sign">Sign Up!</a>
         </form>
     </div>
   )
